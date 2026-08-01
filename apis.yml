@@ -1,8 +1,25 @@
 aid: sensome
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sensome.png
 name: Sensome
-description: 'Sensome is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Sensome is a clinical-stage medical technology company developing tissue-sensing
+  microchip technology and proprietary integration processes that embed real-time bio-impedance
+  sensing into minimally invasive medical devices. Its lead product, the Clotild Smart Guidewire
+  System (manufactured with Asahi Intecc), is the first tissue-sensing neurovascular guidewire,
+  providing physicians real-time blood clot characterization to guide Acute Ischemic Stroke
+  treatment; additional indications include lung cancer biopsy guidance. Surfaced as a portfolio
+  company of Partech, Sensome is a medical-device hardware company with no public API, SDK, or
+  developer platform at the time of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/sensome/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Medical Devices
+- MedTech
+- Sensors
+- Neurovascular
+- Bio-Impedance
+- Interventional Medicine
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.sensome.com/
+- type: Blog
+  url: https://www.sensome.com/newsroom/
+- type: Support
+  url: https://www.sensome.com/contact/
+- type: PrivacyPolicy
+  url: https://www.sensome.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
